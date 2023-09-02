@@ -262,21 +262,21 @@
     //Use a while loop to calculate and return the sum of all the numbers in the array.
 
 
-function sumarry(num1:number[]){
+// function sumarry(num1:number[]){
 
 
-let sum : number = 0
-let index: number = 0
- while(index<num1.length) {
- sum += num1[index]
-index++
- }  
- return sum;
-}
+// let sum : number = 0
+// let index: number = 0
+//  while(index<num1.length) {
+//  sum += num1[index]
+// index++
+//  }  
+//  return sum;
+// }
 
-let addmarry:number [] = [1,2,3,4,5,6,7]
-let resultarry: number= sumarry(addmarry)
-console.log(resultarry)
+// let addmarry:number [] = [1,2,3,4,5,6,7]
+// let resultarry: number= sumarry(addmarry)
+// console.log(resultarry)
 
 
 
@@ -298,3 +298,246 @@ console.log(resultarry)
     //   const result: number = calculateSum(numbersArray);
     //   console.log("Sum of numbers:", result);
       
+// let number:number[] = [10,10,-10,3,4,5,6,7,8,9];
+// for (let i = 0; i < number.length; i++){
+
+//     if ( number[i]%2 ==0){
+//     number.splice(i,1)
+//     i--;}
+// }
+// console.log(number)
+
+// map => feturn same length array
+// filter => retrun same lenght or less
+// foreach => return nothing
+
+// let numbers: number [] =[2,34,6,5,45,28,1000,10000033]
+// //[even, odd]
+// let updatedarry = numbers.map((number)=> {
+
+//     if(number %2 === 0){
+//         return number}
+//     else{
+//         return "odd"
+//     }
+//     }
+
+// );
+// console.log(updatedarry)
+// let numbers: number [] =[2,34,6,5,45,28,1000,10000033]
+// //[even, odd]
+// let updatedarry = numbers.map((number)=> {
+
+//     if(number %2 === 0){
+//         return "even"}
+//     else{
+//         return "odd"
+
+//     }
+//     }
+
+// );
+// console.log(updatedarry)
+
+//  Create a function that takes an array, an index, and a value as parameters. 
+//Inside the function, use the splice method to insert the value at the specified index in the array
+// Return the modified array.
+
+// var fruitnames:string [] = ['apple','goldenapple', 'pineapple', 'orange']
+// function arry(arryfruit:string[]) {
+
+// arryfruit.splice(arryfruit.length,0,"banana")
+//     return arryfruit
+// }
+
+// var addfruit:string []= arry(fruitnames)
+// addfruit.splice(addfruit.length,0,"greenapple")
+// arry(addfruit)
+// console.log(addfruit)
+
+// var arry:any [] = ["fruit", 0.5, "apple", 0.10]
+
+// function poparry(pusharry:any) {
+
+//   pusharry.splice(pusharry.length,0, "green", 0.10)  
+//     return pusharry
+// }
+// var shiftarry = poparry(arry)
+// shiftarry.splice(shiftarry.length, 0.12, "antartica")
+// poparry(shiftarry)
+// console.log(shiftarry)
+//Implement a simple shopping cart program using an array//
+//Create functions to add items, remove items, and update quantities using the splice method//
+// Print the cart's contents after each operation
+// var shop: any []= ["chocolate", 0.12, 20, "chip", 0.13, 25, "water", 0.14, 30]
+
+// function update(items:any){
+
+//     items.push("egg", 0.18, 40)
+//     items.unshift("water", 0.124, 78)
+    
+//     return items
+// }
+
+//  var shiftpop = update(shop)
+// shiftpop.splice(0,9,)
+// //update(shop)
+// update(shiftpop)
+
+// //console.log(shop)
+// console.log(shiftpop)
+
+//Implement a simple shopping cart program using an array//
+//Create functions to add items, remove items, and update quantities using the splice method//
+// Print the cart's contents after each operation
+
+// var arry:any [] = ["banana", 0.12, 12, "Apple", 0.13, 13, "Orange",0.15,18]
+
+// function poparry(shiftarry:any){
+
+// shiftarry.splice(shiftarry.length, 0, "Pineapple", 0.18,25)
+// return shiftarry
+
+// }
+// var pusharry= poparry(arry)
+// pusharry.splice(pusharry.length,0, "pinebanana",0.19,35)
+// pusharry.splice(0,9,0)
+// console.log(pusharry)
+
+//Write a program that uses a while loop to print the first 25 integers.
+
+// var integir:number = 0
+
+// while(integir<25){
+
+// console.log(integir)
+//     integir++
+// }
+
+// console.log(integir)
+
+//Write a program that uses a while loop to print the first 10 even numbers
+
+// var loop10:any = 0
+
+// while(loop10<30){
+
+//     if(loop10 %2 === 0){
+//         console.log(loop10)}
+//     loop10++
+    
+
+// }
+//let count = 0; // Initialize a counter to keep track of even numbers
+
+
+// while (count < 30) { // Continue looping until we have printed 10 even numbers
+//     if (count % 2 === 0) { // Check if the number is even
+//         console.log(count); // Print the even number
+      
+//     }
+   
+//     count++; // Increment the counter
+// }
+//Create a function that takes a positive integer as parameter and uses a 
+//while loop to calculate and return the factorial of that number.
+
+// var fact:number = 1
+
+// function addfact(nummber2:number){
+  
+//     while (fact<5){
+
+//         nummber2 *= fact
+//         fact++
+        
+//     }
+//     console.log(nummber2)
+//     return nummber2
+// }
+
+
+// var lessfact:number = addfact(10)
+
+//Write a program having an array of numbers if the number is negative
+// it should remove the negative number from the array.
+
+// var addarry:number []= [1,-2,3,-4,5,-6,-7,-8,9,10,11]
+// var i:number = 0
+// while(i < addarry.length){
+//     i++
+//     if(addarry[i]>0){
+//     console.log(addarry[i])}
+//     }
+
+// var addarry:number []= [1,-2,3,-4,5,-6,-7,-8,9,10,11]
+// var f:number = 2
+// while(f< addarry.length){
+// f++
+// if(addarry[f]>0){
+//     console.log(addarry[f])
+// }
+//}
+
+//Create a function that takes an array of numbers as parameter.
+// Use a while loop to calculate and return the sum of all the numbers in the array.
+// var i:number = 0
+// var sum:number = 0
+// var addarry: number [] = [1,2,3,4,5,6,7,8,9]
+// function poparry(){
+
+// while(i < addarry.length){
+//   sum += addarry[i] 
+//  i++
+// }
+// }
+
+// poparry()
+// console.log(sum)
+
+
+// let numbers:number[]= [1,2,3,4,-5,-6,-7,8,9,9,10,10,11,12]
+
+// let addarry = numbers.filter((number)=>{
+//     return number>=0
+//     })
+
+//     console.log(addarry)
+//Given an array of numbers [1, 2, 3, 4, 5], use the map method to create a new array where each number is multiplied by 2.
+
+// let number:number []= [1,2,3,4]
+// var addarry = number.map((numbers)=> {
+// var lessnumber = numbers * 2
+// return lessnumber
+// });
+
+// console.log(addarry)
+
+
+// Given an array of strings ["apple", "banana", "cherry", "date", "grape"], use the filter method to create a 
+// new array containing only the fruits with more than 5 characters.
+
+// let numbers: string [] = ["apple", "banana", "cherry", "date", "grape", "potatoess", "lemongreen"]
+
+// let addarry = numbers.filter((number) => {
+
+// let lessarry = number.length > 5
+// return lessarry
+
+// })
+// // console.log(addarry)
+
+// var number:number = 0
+// var sum: number = 0
+// var evennumber: number [] = []
+// while(number < 1000){
+
+//     if(number % 2 ==0){
+//     sum += number
+//     evennumber.push(number)
+// }
+//     number++
+// }
+
+// console.log(sum)
+// console.log(evennumber)
